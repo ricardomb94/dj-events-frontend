@@ -1,7 +1,9 @@
-export default function EvcentsPage() {
+import Layout from '../../components/Layout'
+
+export default function EventsPage() {
     return (
-        <div>
-            <h1>Evénements</h1>
-        </div>
+        <Layout>
+            <h1>Coming up Events</h1>
+        </Layout>
     )
 }
