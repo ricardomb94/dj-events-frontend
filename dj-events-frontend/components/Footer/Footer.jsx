@@ -1,9 +1,9 @@
 import Link from 'next/link';
-import styles from '../styles/Footer.module.css';
+import  style from './Footer.module.css';
 
 export default function Footer() {
     return (
-        <footer className={styles.footer}>
+        <footer className={style.footer}>
             <p>Copyright &copy; Alterwego 2021</p>
             <p>
                 <Link href='/about'>

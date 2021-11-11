@@ -1,7 +1,9 @@
 import Head from 'next/head'
-import Header from './Header'
-import Footer from './Footer'
-import styles from '../styles/Layout.module.css'
+import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
+import Showcase from '../Showcase/Showcase'
+import style from './Layout.module.css'
+import { Container } from 'react-bootstrap';
 
 
 export default function Layout({title, keywords, description, children}) {
@@ -13,11 +15,12 @@ export default function Layout({title, keywords, description, children}) {
                 <meta name='keywords' content={keywords}
                 />
             </Head>
-
+           
             <Header />
-            <div className={styles.container}>
+            <div className={style.container}>
                 {children}
             </div>
+            <Showcase/>
             <Footer/>
         </div>
     )

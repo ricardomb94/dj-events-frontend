@@ -1,6 +1,9 @@
 {
   "name": "dj-events-frontend",
   "private": true,
+  "browser": {
+    "[module-name]": false
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,8 +13,10 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "next": "12.0.3",
     "react": "17.0.2",
+    "react-bootstrap": "^2.0.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.3.1"
   },
