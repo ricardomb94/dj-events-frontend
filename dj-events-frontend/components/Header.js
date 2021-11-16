@@ -6,7 +6,7 @@ export default function Header() {
         <header className={styles.header}>
             <div className={styles.logo}>
                 <Link href='/'>
-                    <a>Cars Option Events</a>
+                    <a>DJ Events</a>
                 </Link>
             </div>
             <nav>
