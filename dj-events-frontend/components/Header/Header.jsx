@@ -8,14 +8,14 @@ export default function Header() {
             <Container   className={style.container}>
                 <div >
                     <Link href='/'>
-                        <img src="/images/logo.svg" className={style.logo}/>
+                       <a> <img src="/images/logo.svg" className={style.logo}/></a>
                     </Link>
                </div>
                 <div>
                     <ul>
                         <li>
                             <Link href='/events'>
-                                <Button   className={style.button} variant="outline-secondary">Events</Button>
+                                <Button   className={style.button} variant="outline-none"><i className="bi bi-person"></i></Button>
                             </Link>
                         </li>
                     </ul>

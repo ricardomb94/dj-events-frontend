@@ -4,7 +4,7 @@
     align-items: center;
     background: #fff;
     color: #333;
-    height: 100px;
+    height: 80px;
     padding: 0 30px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
@@ -27,6 +27,7 @@
  .logo {
     color: #6e74a1;
     width: 50%;
+    margin-left: 15px;
   }
   
   .logo a {
@@ -60,5 +61,16 @@
     }
   }
   .button {
-    background:#52cc17 ;
+    color: #52cc17;
+    border-radius: 10px;
+    border: 3px solid #52cc17 ;
+    background: #fff;
+    margin-right: 15px;
+  }
+
+  .button:hover {
+    color: #fff;
+    border-radius: 10px;
+    background: #52cc17 ;
+    outline: none;
   }

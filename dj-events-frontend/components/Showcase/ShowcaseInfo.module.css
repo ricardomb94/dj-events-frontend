@@ -1,0 +1,30 @@
+.showcaseinfo{
+    display: flex ;
+    justify-content: space-between;
+   /* width: 80%;*/
+     width: 1200px; 
+}
+S
+.like,
+.subscribe{
+    background: #484f6cea;
+    height:150px;
+    
+}
+
+.subscribe{
+    width: 55%;
+    align-items: flex-start;
+    text-align: left;
+    border-radius: 10px;
+    
+}
+.like{
+    width: 175px;
+    border-radius:50%;
+}
+
+.vote{
+    border-radius:50%;
+    width: 50%;
+}
